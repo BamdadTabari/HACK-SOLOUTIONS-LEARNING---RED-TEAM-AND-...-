@@ -1,0 +1,38 @@
+Aggressor Script is a scripting language built into Cobalt Strike, 
+
+starting from version 3.0. It allows users to modify and extend the Cobalt Strike client,
+
+making it a powerful tool for customizing and automating various tasks within the framework. 
+
+Here are some key points about Aggressor Script:
+
+Scripting Language: 
+Aggressor Script is designed to feel like a modern IRC client's scripting language. 
+It is based on the open-source Sleep scripting language and supports features 
+like Java API calls and custom reports
+
+
+Customization: 
+Aggressor Script enables users to redefine the output of almost everything in Cobalt Strike, 
+making it highly customizable. This includes modifying menu structures, 
+presentation of events, and even creating custom reports
+
+
+Integration: 
+Aggressor Script can be used to integrate Cobalt Strike with other tools and utilities. 
+For example, it can be used to send event log events to Slack or to automate tasks using 
+PowerShell Empire's REST API
+
+
+Examples and Resources: 
+There are various examples and resources available for Aggressor Script, 
+including scripts for tasks like session migration, 
+privilege elevation, and notification systems. 
+These scripts can be found on GitHub and other platforms.
+
+
+Console Commands: 
+Aggressor Script includes console commands like x that allow 
+users to evaluate script expressions and automate tasks. 
+For example, the beacons() function returns an array of Beacons known to 
+the current Cobalt Strike instance, which can be used in scripts
