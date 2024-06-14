@@ -23,6 +23,10 @@ The Command and Control (C2) application itself, which includes the client and s
 The team server is responsible for managing the Beacon agents and providing instructions for 
 further malicious activities.
 
-Post-Exploitation Modules: Cobalt Strike includes a range of post-exploitation modules that cover various tactics and techniques, such as OS credential dumping, process discovery, and protocol tunneling, among others.
+Post-Exploitation Modules: 
+Cobalt Strike includes a range of post-exploitation modules that cover various tactics and techniques, 
+such as OS credential dumping, process discovery, and protocol tunneling, among others.
 
-Cobalt Strike is widely used for both legitimate red team operations and malicious activities, making it a significant tool in the cybersecurity landscape
+**
+Cobalt Strike is widely used for both legitimate red team operations 
+and malicious activities, making it a significant tool in the cybersecurity landscape
