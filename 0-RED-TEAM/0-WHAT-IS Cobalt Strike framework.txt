@@ -1,0 +1,28 @@
+Cobalt Strike is a commercial, full-featured, remote access tool that bills itself as 
+"adversary simulation software designed to execute targeted attacks and emulate 
+the post-exploitation actions of advanced threat actors." 
+
+It is a post-exploitation framework designed to be extended and customized by the user community, 
+allowing for the creation of custom profiles and scripts to tailor its behavior and 
+network indicators to evade detection or mimic specific threat actors.
+
+The framework includes several key components:
+
+Beacon: 
+A remote agent that can be deployed to achieve Remote Code Execution (RCE) on a target system once 
+initial access has been gained. 
+Beacons can be configured to conduct further malicious activities with custom settings 
+and are deployed as either "staged" or "stageless" payloads.
+
+Malleable C2: 
+A feature that allows operators to customize the behavior and network indicators of the Beacon payload, 
+making it harder to detect and allowing it to blend in with normal network traffic.
+
+Team Server: 
+The Command and Control (C2) application itself, which includes the client and server components. 
+The team server is responsible for managing the Beacon agents and providing instructions for 
+further malicious activities.
+
+Post-Exploitation Modules: Cobalt Strike includes a range of post-exploitation modules that cover various tactics and techniques, such as OS credential dumping, process discovery, and protocol tunneling, among others.
+
+Cobalt Strike is widely used for both legitimate red team operations and malicious activities, making it a significant tool in the cybersecurity landscape
