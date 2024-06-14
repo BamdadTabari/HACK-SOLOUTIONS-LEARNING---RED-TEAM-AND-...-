@@ -1,0 +1,38 @@
+Malleable C2 is a feature in the "Cobalt Strike framework"
+
+that allows operators to customize the behavior and network indicators of the Beacon payload. 
+
+It provides a domain-specific language to redefine how Beacon communicates with
+the Command and Control (C2) server.
+
+The key benefits of Malleable C2 include =>
+
+Blending in with target network traffic: 
+Operators can configure the Malleable C2 profile to make Beacon's network communications look like normal, 
+innocuous web traffic to blend in with the target environment.
+
+Emulating known threat actors: 
+Malleable C2 can be used to replicate the network indicators and behaviors of 
+specific Advanced Persistent Threat (APT) groups, allowing red teams to test an organization's defenses 
+against real-world threats.
+
+Increasing or decreasing noise: 
+The Malleable C2 profile can be adjusted to make Beacon's communications more or less conspicuous, 
+depending on the testing objectives.
+
+Evading detection: 
+
+Malleable C2 provides granular control over Beacon's in-memory characteristics, process injection, 
+and post-exploitation tasks, making it harder for endpoint security solutions 
+to detect the malicious activity.
+
+**Malleable C2 Profile**
+The Malleable C2 profile is a program that specifies how to transform and store data in a transaction, 
+as well as how to extract and recover that data. 
+Operators can create custom profiles or modify existing examples to suit their needs. 
+The "c2lint tool" can be used to validate the syntax and check for errors in a Malleable C2 profile 
+before deployment.
+
+Overall, Malleable C2 is a powerful feature that gives Cobalt Strike operators 
+the ability to tailor their payloads and network communications to evade detection, 
+emulate specific threat actors, and test the defensive capabilities of target organizations.
