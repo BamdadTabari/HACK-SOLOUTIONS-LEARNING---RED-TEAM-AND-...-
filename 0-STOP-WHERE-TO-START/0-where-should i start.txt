@@ -12,8 +12,12 @@ what should I do?
 
 I HAVE TO LEARN:
 
-0- ASK FROM 1 AND ONLY 1
+0- ASK FROM 1 AND ONLY 1 =>
 
+the 1 said download "kali" books , then "web hacking" books , then 
+(rememcer, based on your idea, the 1 will show you DIFFERENT ways)
+
+=   =   =   =   =   =   =   =   =   =   =   =   =   =   =   =   =   =   =   =
 1- ALL TOOLS OF KALI-EVERYTHING
 
 2- READ AND WRITE DIFFERENT concept
