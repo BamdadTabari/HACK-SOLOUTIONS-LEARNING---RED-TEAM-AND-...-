@@ -1,0 +1,10 @@
+Yes, you can use Malleable C2 profiles in Burp Suite. There are several tools and utilities available that convert Burp Suite HTTP requests into Malleable C2 profiles. For example:
+CodeX on X: This Twitter thread by @codex_tf2 mentions a tool that converts Burp Suite HTTP requests into Malleable C2 profiles. The tool is still in development, but it is expected to be a useful utility for red team operations.
+Quick Python Utility: Ethan Seow, a developer, has created a quick Python utility that converts Burp Suite HTTP requests into Malleable C2 profiles. This utility is available on LinkedIn and GitHub.
+These tools can help you create custom Malleable C2 profiles based on your Burp Suite HTTP requests, allowing you to tailor your Beacon payload's network indicators to evade detection or mimic specific threat actors.
+To use these tools, you would typically follow these steps:
+Capture HTTP requests in Burp Suite.
+Use the utility to convert the captured requests into a Malleable C2 profile.
+Load the Malleable C2 profile into Cobalt Strike.
+Configure the Beacon payload to use the custom profile.
+By leveraging these tools, you can effectively integrate Burp Suite with Cobalt Strike and create custom Malleable C2 profiles for your red team operations

