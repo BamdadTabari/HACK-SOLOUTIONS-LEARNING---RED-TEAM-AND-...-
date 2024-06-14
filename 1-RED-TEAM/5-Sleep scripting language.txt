@@ -1,0 +1,12 @@
+The Sleep scripting language is a procedural scripting language inspired by Perl and Objective-C. It is designed to be embedded into Java applications and is known for its ease of use and flexibility. Here are some key features and facts about the Sleep scripting language:
+Syntax: Sleep has a Perl-like syntax, making it easy for developers familiar with Perl to learn and use.
+Data Structures: Sleep supports three main data structures: scalars, arrays, and hashes. Scalars can be strings or numbers, arrays are collections of scalars or hashes, and hashes map keys to values.
+Dynamic Typing: Sleep is dynamically typed, meaning variables do not need to be declared or typed before use. This can be both an advantage and a disadvantage.
+Integration with Java: Sleep is designed to be integrated into Java applications using "programmatical bridges." These bridges act as a proxy between the Sleep scripts and the application they are run for, allowing for seamless interaction between the two.
+Serialization: Sleep scripts can be serialized and saved to disk, which allows for faster execution of scripts by skipping the parser and scanner steps.
+HOES: HOES (Hierarchical Object Environment System) is a feature that allows scripters to manipulate Java objects using a syntax similar to Objective-C. This enables the use of Java objects and third-party libraries within Sleep scripts.
+Applications: Sleep is currently used in several applications, including the IRC client JIRCii and the IRC bot SleepyBot.
+License: Sleep is released under the BSD license, which allows for free use and modification.
+Size and Speed: Sleep is a small language with a package size of around 250KB, making it suitable for distributed communication and data manipulation tasks. It also executes scripts quickly due to its optimized design.
+Community: Sleep has an active community and is being developed in parallel with other projects, such as the Java IRC client JIRCii.
+Overall, Sleep is a versatile and powerful scripting language that excels at data manipulation, component integration, and distributed communication tasks. Its ease of use, flexibility, and integration with Java make it a valuable tool for developers and system administrators
