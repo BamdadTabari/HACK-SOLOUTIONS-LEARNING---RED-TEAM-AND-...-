@@ -1,0 +1,51 @@
+spree
+
+search
+
+research
+
+exampple: 
+for a organization=> 
+    -search main site, 
+    - related sites, 
+    - bosses
+    - history, story
+    - news
+    - employees
+    - social
+    - local places
+    - use tools like amass => example: amass intel -org "{org name}"
+    - save these Data
+
+NOTE:
+there is alot of scenarioes, and tools, that you can use.
+for learning porpuse, I suggest you to "pick greather than 8 and less than 50 TARGETS "
+and do mutiple attackes on them. " PICK TARGETS WITH DIFFERENT RANGE OF SECURITY, FROM WEAK TO STRONG"
+Then you will see for each target, you have to write different action chains.
+
+BIG NOTE: """ FIRST SAFETY, THEN WORK """
+        BE AWARE, YOU MUST BE ANONYMUS ON INTERNET.
+
+BEFORE ANY REAL WORLD ACTION, YOU HAVE TO PERFORM YOUR TRAINS OF HACK IN LABS,
+    BEST LAB FOR FASTER START IS :
+    + SOME ONLINE AI HELPERS LIKE PERPLEXITY AND PHIND
+    + A VMWARE OR VIRTUALBOX
+    + A KALI LINUX OR PARROT OS
+    + METASPLOITABLE2 
+# OPTIONAL:
+    + METASPLOITABLE3
+    + OWASP BROKEN WEB APP
+    + WIN7,8,10,11, Server
+    + UNUNTU
+    + AND MORE
+
+THEN. GET ANONYMUS, AND DO SOME REAL ATTACKS,
+    THERE ARE SITES FOR THIS JOB, LIKE: HACKTHISSITE OR TRYHACKME AND ...
+    REMEMBER IF YOU WANT TO DO IT ON REAL SITES, ORGS, PERSONS AND ...
+    "GIVE THE PERMISSION FROM THEM, AND BE CAREFULL THAT DO NOT HARM THEM"
+
+SO, LETS START WITH MY FAVORITE ONE, GOOGLE DORKING:
+
+ALL YOUR SPREE IN SITES, CAN DONE VERY FAST USING GD (GOOGLE DORK)
+
+SEE YOU IN NEXT LECTURE
