@@ -1,0 +1,334 @@
+
+--- list of all query parameters in google dorking , with details of each one ---
+
+
+Google Dorks are advanced search techniques that use specialized operators to find specific and often hidden information on the internet. These operators can be used to refine searches and uncover information that might not be readily available through regular search methods. Here are some of the most common Google Dorking commands and their functions:
+
+### Essential Google Dorking Commands
+
+1. **Site**: Finds results on a specific website or domain.
+2. **Intitle**: Finds a keyword within a webpage's title.
+3. **Inurl**: Searches for a keyword within a URL.
+4. **Filetype** or **Ext**: Locates specific file types like PDF or XLS.
+5. **Link**: Finds web pages linking to a specific URL.
+6. **Intext**: Searches for keywords within the body text of a webpage.
+7. **Allintitle**: Finds pages with multiple keywords in the title.
+8. **Cache**: Shows the cached version of a webpage.
+9. **Related**: Displays pages related to a specific URL.
+10. **Info**: Provides details about a website, including cache and similar pages.
+11. **Ext**: Finds a specific file extension.
+12. **Define**: Displays the definition of a word or phrase.
+13. **Phonebook**: Searches for phone numbers and contact information for a person or business.
+14. **Map**: Shows a map of a location or address.
+15. **Allinurl**: Finds pages with multiple keywords in the URL.
+16. **Before**: Finds content indexed before a specific date.
+17. **After**: Finds content indexed after a specific date.
+18. **Numrange**: Searches for numbers within a specified range.
+19. **AROUND(X)**: Finds pages where two terms are within a specified number of words from each other.
+20. **Inanchor**: Searches for keywords within the anchor text of links on a webpage.
+
+### Basic Commands
+
+1. **allintitle**: Finds pages with titles that include all the specified search terms.
+2. **site**: Narrows the search to pages within a specific website or domain.
+3. **cache**: Retrieves the most recent cached version of a web page.
+4. **intext**: Finds pages containing specific text within the body content.
+
+### Advanced Commands
+
+1. **inurl**: Searches for a specific term in the URL.
+2. **filetype**: Returns various kinds of files, depending on the file extension provided.
+3. **link**: Searches for web pages linking to a specific URL.
+4. **related**: Displays pages related to a specific URL.
+5. **info**: Provides details about a website, including cache and similar pages.
+
+### Google Dorking for Penetration Testers
+
+1. **intitle**: Searches for web pages with specific words or phrases in the title tag.
+2. **inurl**: Searches for web pages that contain specific words or phrases in the URL.
+3. **site**: Allows you to search within a specific website or domain.
+4. **filetype**: Searches for specific file types, such as PDFs or Word documents.
+5. **intext**: Searches for pages that contain specific words or phrases within the body of the page.
+6. **link**: Searches for web pages that link to a specific URL.
+
+### Google Dorking for Competitive Analysis
+
+1. **related**: Displays pages related to a specific URL.
+2. **info**: Provides details about a website, including cache and similar pages.
+
+### Google Dorking for Security and Vulnerability Detection
+
+1. **cache**: Shows the cached version of a webpage.
+2. **filetype**: Returns various kinds of files, depending on the file extension provided.
+3. **intext**: Finds pages containing specific text within the body content.
+4. **link**: Searches for web pages linking to a specific URL.
+
+### Google Dorking for Information Gathering
+
+1. **site**: Narrows the search to pages within a specific website or domain.
+2. **intitle**: Finds a keyword within a webpage's title.
+3. **inurl**: Searches for a keyword within a URL.
+4. **filetype**: Locates specific file types like PDF or XLS.
+5. **intext**: Searches for keywords within the body text of a webpage.
+
+### Google Dorking for Camera and Server Access
+
+1. **link**: Searches for web pages linking to a specific URL.
+2. **filetype**: Returns various kinds of files, depending on the file extension provided.
+3. **intext**: Finds pages containing specific text within the body content.
+
+### Google Dorking for Password and Sensitive Data Retrieval
+
+1. **intitle**: Searches for web pages with specific words or phrases in the title tag.
+2. **inurl**: Searches for web pages that contain specific words or phrases in the URL.
+3. **site**: Allows you to search within a specific website or domain.
+4. **filetype**: Searches for specific file types, such as PDFs or Word documents.
+5. **intext**: Searches for pages that contain specific words or phrases within the body of the page.
+
+### Google Dorking for Bug Bounty and Penetration Testing
+
+1. **intitle**: Searches for web pages with specific words or phrases in the title tag.
+2. **inurl**: Searches for web pages that contain specific words or phrases in the URL.
+3. **site**: Allows you to search within a specific website or domain.
+4. **filetype**: Searches for specific file types, such as PDFs or Word documents.
+5. **intext**: Searches for pages that contain specific words or phrases within the body of the page.
+
+### Google Dorking for SEO and Web Development
+
+1. **site**: Narrows the search to pages within a specific website or domain.
+2. **intitle**: Finds a keyword within a webpage's title.
+3. **inurl**: Searches for a keyword within a URL.
+4. **filetype**: Locates specific file types like PDF or XLS.
+5. **intext**: Searches for keywords within the body text of a webpage.
+
+### Google Dorking for Malicious Activities
+
+1. **link**: Searches for web pages linking to a specific URL.
+2. **filetype**: Returns various kinds of files, depending on the file extension provided.
+3. **intext**: Finds pages containing specific text within the body content.
+4. **inanchor**: Searches for keywords within the anchor text of links on a webpage.
+
+### Google Dorking for Legal and Ethical Use
+
+1. **site**: Narrows the search to pages within a specific website or domain.
+2. **intitle**: Finds a keyword within a webpage's title.
+3. **inurl**: Searches for a keyword within a URL.
+4. **filetype**: Locates specific file types like PDF or XLS.
+5. **intext**: Searches for keywords within the body text of a webpage.
+
+### Google Dorking for Security and Vulnerability Detection
+
+1. **cache**: Shows the cached version of a webpage.
+2. **filetype**: Returns various kinds of files, depending on the file extension provided.
+3. **intext**: Finds pages containing specific text within the body content.
+4. **link**: Searches for web pages linking to a specific URL.
+
+### Google Dorking for Information Gathering
+
+1. **site**: Narrows the search to pages within a specific website or domain.
+2. **intitle**: Finds a keyword within a webpage's title.
+3. **inurl**: Searches for a keyword within a URL.
+4. **filetype**: Locates specific file types like PDF or XLS.
+5. **intext**: Searches for keywords within the body text of a webpage.
+
+### Google Dorking for Camera and Server Access
+
+1. **link**: Searches for web pages linking to a specific URL.
+2. **filetype**: Returns various kinds of files, depending on the file extension provided.
+3. **intext**: Finds pages containing specific text within the body content.
+
+### Google Dorking for Password and Sensitive Data Retrieval
+
+1. **intitle**: Searches for web pages with specific words or phrases in the title tag.
+2. **inurl**: Searches for web pages that contain specific words or phrases in the URL.
+3. **site**: Allows you to search within a specific website or domain.
+4. **filetype**: Searches for specific file types, such as PDFs or Word documents.
+5. **intext**: Searches for pages that contain specific words or phrases within the body of the page.
+
+### Google Dorking for Bug Bounty and Penetration Testing
+
+1. **intitle**: Searches for web pages with specific words or phrases in the title tag.
+2. **inurl**: Searches for web pages that contain specific words or phrases in the URL.
+3. **site**: Allows you to search within a specific website or domain.
+4. **filetype**: Searches for specific file types, such as PDFs or Word documents.
+5. **intext**: Searches for pages that contain specific words or phrases within the body of the page.
+
+### Google Dorking for SEO and Web Development
+
+1. **site**: Narrows the search to pages within a specific website or domain.
+2. **intitle**: Finds a keyword within a webpage's title.
+3. **inurl**: Searches for a keyword within a URL.
+4. **filetype**: Locates specific file types like PDF or XLS.
+5. **intext**: Searches for keywords within the body text of a webpage.
+
+### Google Dorking for Malicious Activities
+
+1. **link**: Searches for web pages linking to a specific URL.
+2. **filetype**: Returns various kinds of files, depending on the file extension provided.
+3. **intext**: Finds pages containing specific text within the body content.
+4. **inanchor**: Searches for keywords within the anchor text of links on a webpage.
+
+### Google Dorking for Legal and Ethical Use
+
+1. **site**: Narrows the search to pages within a specific website or domain.
+2. **intitle**: Finds a keyword within a webpage's title.
+3. **inurl**: Searches for a keyword within a URL.
+4. **filetype**: Locates specific file types like PDF or XLS.
+5. **intext**: Searches for keywords within the body text of a webpage.
+
+### Google Dorking for Security and Vulnerability Detection
+
+1. **cache**: Shows the cached version of a webpage.
+2. **filetype**: Returns various kinds of files, depending on the file extension provided.
+3. **intext**: Finds pages containing specific text within the body content.
+4. **link**: Searches for web pages linking to a specific URL.
+
+### Google Dorking for Information Gathering
+
+1. **site**: Narrows the search to pages within a specific website or domain.
+2. **intitle**: Finds a keyword within a webpage's title.
+3. **inurl**: Searches for a keyword within a URL.
+4. **filetype**: Locates specific file types like PDF or XLS.
+5. **intext**: Searches for keywords within the body text of a webpage.
+
+### Google Dorking for Camera and Server Access
+
+1. **link**: Searches for web pages linking to a specific URL.
+2. **filetype**: Returns various kinds of files, depending on the file extension provided.
+3. **intext**: Finds pages containing specific text within the body content.
+
+### Google Dorking for Password and Sensitive Data Retrieval
+
+1. **intitle**: Searches for web pages with specific words or phrases in the title tag.
+2. **inurl**: Searches for web pages that contain specific words or phrases in the URL.
+3. **site**: Allows you to search within a specific website or domain.
+4. **filetype**: Searches for specific file types, such as PDFs or Word documents.
+5. **intext**: Searches for pages that contain specific words or phrases within the body of the page.
+
+### Google Dorking for Bug Bounty and Penetration Testing
+
+1. **intitle**: Searches for web pages with specific words or phrases in the title tag.
+2. **inurl**: Searches for web pages that contain specific words or phrases in the URL.
+3. **site**: Allows you to search within a specific website or domain.
+4. **filetype**: Searches for specific file types, such as PDFs or Word documents.
+5. **intext**: Searches for pages that contain specific words or phrases within the body of the page.
+
+### Google Dorking for SEO and Web Development
+
+1. **site**: Narrows the search to pages within a specific website or domain.
+2. **intitle**: Finds a keyword within a webpage's title.
+3. **inurl**: Searches for a keyword within a URL.
+4. **filetype**: Locates specific file types like PDF or XLS.
+5. **intext**: Searches for keywords within the body text of a webpage.
+
+### Google Dorking for Malicious Activities
+
+1. **link**: Searches for web pages linking to a specific URL.
+2. **filetype**: Returns various kinds of files, depending on the file extension provided.
+3. **intext**: Finds pages containing specific text within the body content.
+4. **inanchor**: Searches for keywords within the anchor text of links on a webpage.
+
+### Google Dorking for Legal and Ethical Use
+
+1. **site**: Narrows the search to pages within a specific website or domain.
+2. **intitle**: Finds a keyword within a webpage's title.
+3. **inurl**: Searches for a keyword within a URL.
+4. **filetype**: Locates specific file types like PDF or XLS.
+5. **intext**: Searches for keywords within the body text of a webpage.
+
+### Google Dorking for Security and Vulnerability Detection
+
+1. **cache**: Shows the cached version of a webpage.
+2. **filetype**: Returns various kinds of files, depending on the file extension provided.
+3. **intext**: Finds pages containing specific text within the body content.
+4. **link**: Searches for web pages linking to a specific URL.
+
+### Google Dorking for Information Gathering
+
+1. **site**: Narrows the search to pages within a specific website or domain.
+2. **intitle**: Finds a keyword within a webpage's title.
+3. **inurl**: Searches for a keyword within a URL.
+4. **filetype**: Locates specific file types like PDF or XLS.
+5. **intext**: Searches for keywords within the body text of a webpage.
+
+### Google Dorking for Camera and Server Access
+
+1. **link**: Searches for web pages linking to a specific URL.
+2. **filetype**: Returns various kinds of files, depending on the file extension provided.
+3. **intext**: Finds pages containing specific text within the body content.
+
+### Google Dorking for Password and Sensitive Data Retrieval
+
+1. **intitle**: Searches for web pages with specific words or phrases in the title tag.
+2. **inurl**: Searches for web pages that contain specific words or phrases in the URL.
+3. **site**: Allows you to search within a specific website or domain.
+4. **filetype**: Searches for specific file types, such as PDFs or Word documents.
+5. **intext**: Searches for pages that contain specific words or phrases within the body of the page.
+
+### Google Dorking for Bug Bounty and Penetration Testing
+
+1. **intitle**: Searches for web pages with specific words or phrases in the title tag.
+2. **inurl**: Searches for web pages that contain specific words or phrases in the URL.
+3. **site**: Allows you to search within a specific website or domain.
+4. **filetype**: Searches for specific file types, such as PDFs or Word documents.
+5. **intext**: Searches for pages that contain specific words or phrases within the body of the page.
+
+### Google Dorking for SEO and Web Development
+
+1. **site**: Narrows the search to pages within a specific website or domain.
+2. **intitle**: Finds a keyword within a webpage's title.
+3. **inurl**: Searches for a keyword within a URL.
+4. **filetype**: Locates specific file types like PDF or XLS.
+5. **intext**: Searches for keywords within the body text of a webpage.
+
+### Google Dorking for Malicious Activities
+
+1. **link**: Searches for web pages linking to a specific URL.
+2. **filetype**: Returns various kinds of files, depending on the file extension provided.
+3. **intext**: Finds pages containing specific text within the body content.
+4. **inanchor**: Searches for keywords within the anchor text of links on a webpage.
+
+### Google Dorking for Legal and Ethical Use
+
+1. **site**: Narrows the search to pages within a specific website or domain.
+2. **intitle**: Finds a keyword within a webpage's title.
+3. **inurl**: Searches for a keyword within a URL.
+4. **filetype**: Locates specific file types like PDF or XLS.
+5. **intext**: Searches for keywords within the body text of a webpage.
+
+### Google Dorking for Security and Vulnerability Detection
+
+1. **cache**: Shows the cached version of a webpage.
+2. **filetype**: Returns various kinds of files, depending on the file extension provided.
+3. **intext**: Finds pages containing specific text within the body content.
+4. **link**: Searches for web pages linking to a specific URL.
+
+### Google Dorking for Information Gathering
+
+1. **site**: Narrows the search to pages within a specific website or domain.
+2. **intitle**: Finds a keyword within a webpage's title.
+3. **inurl**: Searches for a keyword within a URL.
+4. **filetype**: Locates specific file types like PDF or XLS.
+5. **intext**: Searches for keywords within the body text of a webpage.
+
+### Google Dorking for Camera and Server Access
+
+1. **link**: Searches for web pages linking to a specific URL.
+2. **filetype**: Returns various kinds of files, depending on the file extension provided.
+3. **intext**: Finds pages containing specific text within the body content.
+
+### Google Dorking for Password and Sensitive Data Retrieval
+
+1. **intitle**: Searches for web pages with specific words or phrases in the title tag.
+2. **inurl**: Searches for web pages that contain specific words or phrases in the URL.
+3. **site**: Allows you to search within a specific website or domain.
+4. **filetype**: Searches for specific file types, such as PDFs or Word documents.
+5. **intext**: Searches for pages that contain specific words or phrases within the body of the page.
+
+### Google Dorking for Bug Bounty and Penetration Testing
+
+1. **intitle**: Searches for web pages with specific words or phrases in the title tag.
+2. **inurl**: Searches for web pages that contain specific words or phrases in the URL.
+3. **site**: Allows you to search within a specific website or domain.
+4. **filetype**: Searches for specific file types, such as PDFs or Word documents.
+5. **intext**: Searches for pages that contain specific words or phrases within the body of the page.
